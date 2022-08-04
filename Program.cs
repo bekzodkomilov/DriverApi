@@ -10,11 +10,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<UserService>();
 builder.Services.AddDbContext<DriverDbContext>(options =>
 {
     options.UseSqlite("Data Source=Data/app.db");
 }, ServiceLifetime.Singleton);
+
+builder.Services.AddScoped<IDriverService, DriverService>();
 
 var app = builder.Build();
 

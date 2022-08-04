@@ -1832,31 +1832,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ahmad\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/hp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
+      "projectUniqueName": "/home/hp/vscode/DriverLibrary/DriverLibrary.csproj",
       "projectName": "DriverLibrary",
-      "projectPath": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\DriverLibrary.csproj",
-      "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmad\\dotnet\\DriverLibrary\\obj\\",
+      "projectPath": "/home/hp/vscode/DriverLibrary/DriverLibrary.csproj",
+      "packagesPath": "/home/hp/.nuget/packages/",
+      "outputPath": "/home/hp/vscode/DriverLibrary/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/hp/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1928,7 +1921,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
